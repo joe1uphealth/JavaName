@@ -20,9 +20,11 @@ to run:
 
 `curl --location 'localhost:8080/getJoes'`
 
-```curl --location 'localhost:8080/capitalize' \
+```
+curl --location 'localhost:8080/capitalize' \
 --header 'Content-Type: application/json' \
 --data '{
     "firstName": "Joe",
     "lastName": "McCaffrey"
-}'```
+}'
+```
